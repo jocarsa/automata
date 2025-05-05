@@ -4,5 +4,5 @@
 
 # Adjust pkg-config to include both opencv4 and sdl2
 
-g++ main.cpp -o simulacion -std=c++17 `pkg-config --cflags --libs opencv4 sdl2`
+g++ main.cpp -o automata -std=c++17 `pkg-config --cflags --libs opencv4 sdl2`
 
